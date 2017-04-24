@@ -1,6 +1,6 @@
 # npmtest-intercom-client
 
-#### test coverage for  [intercom-client (v2.8.7)](https://github.com/intercom/intercom-node)  [![npm package](https://img.shields.io/npm/v/npmtest-intercom-client.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-intercom-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-intercom-client.svg)](https://travis-ci.org/npmtest/node-npmtest-intercom-client)
+#### basic test coverage for  [intercom-client (v2.8.7)](https://github.com/intercom/intercom-node)  [![npm package](https://img.shields.io/npm/v/npmtest-intercom-client.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-intercom-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-intercom-client.svg)](https://travis-ci.org/npmtest/node-npmtest-intercom-client)
 
 #### Official Node bindings to the Intercom API
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-intercom-client/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-intercom-client/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-intercom-client/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-intercom-client/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-intercom-client/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-intercom-client/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-intercom-client/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-intercom-client/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-intercom-client/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-intercom-client/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-intercom-client/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-intercom-client/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "prepublish": "gulp prepublish",
         "test": "gulp"
     },
-    "version": "2.8.7"
+    "version": "2.8.7",
+    "bin": {}
 }
 ```
 
